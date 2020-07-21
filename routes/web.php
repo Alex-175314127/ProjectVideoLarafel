@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('templates.default');
 });
+
+Route::get('/calendar', function () {
+    return view('templates.calendar');
+});
